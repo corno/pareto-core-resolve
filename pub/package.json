@@ -1,0 +1,24 @@
+{
+  "author": "Corno",
+  "bugs": {
+    "url": "https://github.com/corno/pareto-core/issues"
+  },
+  "description": "",
+  "homepage": "https://github.com/corno/pareto-core#readme",
+  "keywords": [],
+  "files": [
+    "dist"
+  ],
+  "license": "ISC",
+  "main": "./dist",
+  "name": "pareto-core-resolve",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corno/pareto-core.git"
+  },
+  "version": "0.0.0",
+  "dependencies": {
+    "pareto-core-types": "^0.1.0"
+  },
+  "content-fingerprint": "f32a41523c1c170e51ba7582409ba52c99892178"
+}
