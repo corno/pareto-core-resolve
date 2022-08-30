@@ -18,7 +18,7 @@
   },
   "version": "0.1.0",
   "dependencies": {
-    "pareto-core-types": "^0.1.0"
+    "pareto-core-types": "^0.2.0"
   },
-  "content-fingerprint": "f32a41523c1c170e51ba7582409ba52c99892178"
+  "content-fingerprint": "e08a003f78468634ddc68668aee669d92c752f26"
 }
