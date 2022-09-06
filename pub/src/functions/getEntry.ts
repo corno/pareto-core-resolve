@@ -7,7 +7,7 @@ export function getEntry<T, RT>(
     notExists: () => RT
 ): RT {
     let entry: T | undefined = undefined
-    dictionary.forEach(() => false, ($, thisKey) => {
+    dictionary.map(($, thisKey) => {
         if (thisKey === key) {
             entry = $
         }
@@ -22,7 +22,7 @@ export function getEntry<T, RT>(
 export function unsafeGetEntry<T>(dictionary: pt.Dictionary<T>, key: string): T {
     const found: string[] = []
     let entry: T | undefined = undefined
-    dictionary.forEach(() => false, ($, thisKey) => {
+    dictionary.map(($, thisKey) => {
         found.push(key)
         if (thisKey === key) {
             entry = $

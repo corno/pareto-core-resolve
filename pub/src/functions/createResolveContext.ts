@@ -20,7 +20,7 @@ export function createResolveContext<Annotation>(
 
             references.push(() => {
                 const foundKeys: string[] = []
-                dictionary.forEach((a, b) => a > b, ($, key) => {
+                dictionary.map(($, key) => {
                     foundKeys.push(key)
                     if (key === keyToBeFound) {
                         entry = $
